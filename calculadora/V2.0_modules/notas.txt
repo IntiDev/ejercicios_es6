@@ -1,0 +1,21 @@
+************* LINKS ***************
+https://medium.com/@tmtushar28/getting-started-with-webpack-aae37062c01
+https://programarivm.com/hola-mundo-oop-con-ecmascript-6-ec6/
+https://ed.team/blog/como-publicar-en-npm
+
+
+
+
+
+********** COMANDOS **********
+cli -> linea de comando (no crea archivos locales, instala en la maquina)
+
+*********** MODULES ********
+1. npm install -D babel-cli / npm install -g babel-cli
+2. npm install -D babel-preset-es2015 / npm install --save-dev babel-preset-es2015
+3. Crear archivo .babelrc 
+    {
+        "presets": ["es2015"]
+    }
+4. babel src --out-dir dist
+5. node dist/calculadora_modules.js

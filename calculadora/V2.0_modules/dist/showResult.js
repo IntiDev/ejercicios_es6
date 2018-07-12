@@ -1,0 +1,8 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var showResult = exports.showResult = function showResult(n1, n2, operator, result) {
+    console.log("El resultado de " + n1 + " " + operator + " " + n2 + " es " + result + " ");
+};
